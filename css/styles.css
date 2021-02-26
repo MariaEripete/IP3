@@ -1,6 +1,7 @@
 #text{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    margin: 7%;
 }
 .landing{
     background-image: url(../assets/backgrounds/h_img.jpg);
@@ -8,4 +9,11 @@
     color: white;
     text-align: center;
     padding: 17%;
+}
+.back2{
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 8%;
 }
