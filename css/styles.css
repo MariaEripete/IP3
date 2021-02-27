@@ -17,3 +17,42 @@
     text-align: center;
     padding: 8%;
 }
+
+#what-we-do{
+    display: ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+#port{
+    text-align: center;
+}
+.container .portfolio{
+    width: 1280px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .portfolio .box{
+    position: relative;
+    width: 255px;
+    height: 255px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container .portfolio .box .imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.container .portfolio .box .imgbox img{
+    max-width: 100%;
+    transition: 2s;
+}
+.container .portfolio .box:hover .imgbox img{
+    transform: scale(1.2);
+}
