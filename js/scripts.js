@@ -1,4 +1,40 @@
 $(document).ready(function(){
+    $("#design-img").click(function(){
+      $("#design-img").slideDown('1500').hide('1000');
+      $("#design").show('1500');
+    });
+    $("#design").click(function(){
+      $("#design").slideUp('1500');
+      $("#devsign-img").slideDown('1500');
+    });
+  });
+  
+  $(document).ready(function(){
+    $("#dev-img").click(function(){
+      $("#dev-img").slideDown('1500').hide('1000');
+      $("#dev").show('1500');
+    });
+    $("#dev").click(function(){
+      $("#dev").slideUp('1500');
+      $("#dev-img").slideDown('1500');
+    });
+  });
+  
+  $(document).ready(function(){
+    $("#pm-img").click(function(){
+      $("#pm-img").slideDown('1500').hide('1000');
+      $("#product-management").show('1500');
+    });
+    $("#product-management").click(function(){
+      $("#product-management").slideUp('1500');
+      $("#pm-img").slideDown('1500');
+    });
+  });
+  
+
+
+
+$(document).ready(function(){
     $("#work1").mouseover(function(){
       $("#overlay1").show();
     }).mouseout(function(){
