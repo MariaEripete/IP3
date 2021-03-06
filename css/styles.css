@@ -1,4 +1,4 @@
-#text{
+/*#text{
     text-align: center;
     padding: 20px;
     margin: 3%;
@@ -20,7 +20,7 @@
 .contact{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
-    /*text-align: justify;*/
+    /*text-align: justify;
     padding: 5%;
     margin-top: 5%;
 
@@ -89,7 +89,7 @@ body{
 }
 .container .portfolio .box .imgbox{
     position: relative;
-    /*overflow: hidden;*/
+    /*overflow: hidden;
 }
 .container .portfolio .box .imgbox img{
     max-width: 100%;
@@ -97,7 +97,7 @@ body{
 }
 /*.container .portfolio .box:hover .imgbox img{
     transform: scale(1.2);
-}*/
+}
 .container .portfolio .box .details{
     position: absolute;
     top: 10px;
@@ -112,11 +112,11 @@ body{
 /*.container .portfolio .box:hover .details{
     transform: scaleY(1);
 
-}*/
+}
 .container .portfolio .box .details .content{
     position: absolute;
     top: 50%;
-    /*transform: translateY(-50%);*/
+    /*transform: translateY(-50%);
     text-align: center;
     padding: 15px;
     color: white;
@@ -143,5 +143,104 @@ body{
       top: 20px;
       left: 16px;
       padding-top: 20%;
-      /* font-size: 16px; */
-    }
+      /* font-size: 16px; 
+    }*/
+
+
+
+
+
+
+
+    body {
+        background-color: white;
+      }
+      
+      h4{
+        font-family: 'Merriweather', serif;
+      }
+      .intro {
+        background-image: url(../assets/backgrounds/h_img.jpg);
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding: 17%;
+      }
+      .Dlogo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      .MouseClick {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .aboutUs {
+        text-align: center;
+        color: black;
+        font-size: small;
+        font-family: 'Yantramanav', sans-serif;
+      }
+      .services {
+        background-image: url(../assets/backgrounds/s_image.jpg);
+        background-size: cover;
+        text-align: center;
+        color: white;
+        font-size: small;
+        font-family: 'Yantramanav', sans-serif;
+      }
+      .hide{
+        display:none;
+      }
+      
+      .Hover {
+        opacity:0;
+        background-color: rgba(255, 255, 255, 0.623);
+        position: absolute;
+        top:25%;
+        bottom:25%;
+        left:25%;
+        right:25%; 
+      }
+      .custom-info-on-portfolio-images {
+        height: 280px;
+        max-width: 280px;
+        padding:2px;
+      }
+      .row{
+        padding:2%;
+      }
+      .Contact-Us {
+        background-image: url(../assets/backgrounds/c_image.jpg);
+        background-size:cover;
+        display: cover;
+        padding: 10%;
+      }
+      form #contact{
+        background-color: rgba(0, 0, 0, 0);
+      }
+      
+      input[type=text] {
+        background:transparent;
+        color: white;
+      }
+      textarea[type=text] {
+        background:transparent;
+        color: white;
+      }
+      
+      .submit{
+        position:absolute;
+        padding-left: 25%;
+      }
+      
+      .Footer {
+        color: black;
+        justify-content: center;
+        text-align: center;
+        font-size: x-small;
+        font-family: 'Amaranth', sans-serif;
+      }
